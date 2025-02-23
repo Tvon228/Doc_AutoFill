@@ -1,0 +1,21 @@
+{
+  "name": "document-autofill",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.9.4"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.85.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
