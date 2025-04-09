@@ -21,7 +21,11 @@ function Header() {
 							class={classes.searchInput}
 							placeholder="Поиск шаблонов"
 						/>
-						<FiSearch size={20} color="#3B3B3B" class={classes.searchIcon}/>
+						<FiSearch
+							size={20}
+							color="#3B3B3B"
+							class={classes.searchIcon}
+						/>
 					</div>
 				</div>
 				<div class={classes.questionMark}>

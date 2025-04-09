@@ -1,0 +1,34 @@
+.dropdown
+    overflow: hidden
+    margin-left: 2.5rem
+    max-height: 0
+    opacity: 0
+    transition: all .2s cubic-bezier(0.4, 0, 0.2, 1)
+
+    &Open
+        max-height: 500px
+        opacity: 1
+        margin-top: 0.5rem
+        margin-bottom: 0.5rem
+
+    &Closing
+        max-height: 0
+        opacity: 0
+        margin: 0
+
+.dropdownItem
+    display: flex
+    gap: .5rem
+    color: #3B3B3B
+    padding: 0.55rem
+    border-radius: 6px
+    font-size: 1rem
+    cursor: pointer
+    transition: all 0.2s ease
+
+    &:hover
+        background: #F0F3FF
+
+    &.selected
+        background: #F0F3FF
+        color: #2C60F0
