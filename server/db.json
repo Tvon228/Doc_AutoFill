@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "login": "vadim",
+      "password": "dflbvgf04",
+      "name": "Иванов Иван Иванович",
+      "role": "user",
+      "position": "Программист",
+      "phone": "+7 978-123-45-62",
+      "email": "mexfacebook@gmail.com",
+      "avatarUrl": "http://localhost:3001/uploads/1745791216280-1MNR2c3EvsE.jpg"
+    },
+    {
+      "login": "vadimys",
+      "password": "dflbvgf04",
+      "name": "Анчоус Фараон Фараонович",
+      "role": "user",
+      "position": "Программист",
+      "phone": "",
+      "email": "mexfacebook@gmail.coe",
+      "avatarUrl": ""
+    },
+    {
+      "login": "admin",
+      "password": "admin",
+      "name": "Администратор Системы",
+      "position": "Администратор",
+      "role": "admin"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
     align-items: center
     justify-content: space-between
     width: 85%
-    
+
 .documentControls
     display: flex
     align-items: center
@@ -58,6 +58,35 @@
     background: none
     border: none
     color: #666
+
+.info
+    display: flex
+    align-items: center
+    gap: 1rem
+
+.account
+    display: flex
+    align-items: center
+    gap: .7rem
+    padding: .375rem 1rem
+    border: 1px solid #cdcdcd
+    border-radius: .85rem
+    cursor: pointer
+    color: #666
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08)
+    transition: all .3s ease
+
+    &:hover
+        border: 1px solid #2C60F0
+        color: #2C60F0
+
+        .userIcon
+            color: #2C60F0 !important
+
+.userName
+    font-size: 1.2rem
+    font-weight: 500
+    user-select: none
 
 .questionMark
     display: flex

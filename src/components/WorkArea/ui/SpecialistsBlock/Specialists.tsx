@@ -1,6 +1,8 @@
 import AddButton from "../../../ui/buttons/WorkArea/Add/addButton"
 import classes from "./Specialists.module.sass"
 
+import { VsCalendar } from 'solid-icons/vs'
+
 export default function SpecialistsBlock() {
 	return (
 		<div class={classes.content}>
@@ -25,6 +27,7 @@ export default function SpecialistsBlock() {
                 <span class={classes.text}>Отчетный период</span>
                 <button class={classes.period}>
                     Февраль 2025 - март 2025
+					<VsCalendar size={24} class="calendarIcn"/>
                 </button>
             </div>
 		</div>

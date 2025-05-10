@@ -4,6 +4,12 @@ export interface AuthState {
 	isAuthenticated: boolean
 	user: null | {
 		login: string
+		role: string
+		name: string
+		position?: string 
+		phone?: string
+		email?: string
+		avatarUrl?: string;
 	}
 }
 

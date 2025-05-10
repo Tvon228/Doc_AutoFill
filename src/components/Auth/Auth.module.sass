@@ -2,7 +2,8 @@
     position: relative
     width: 100vw
     height: 100vh
-    
+    box-sizing: border-box
+
 .content
     position: absolute
     display: flex
@@ -12,62 +13,77 @@
     transform: translate(-50%, -50%)
     align-items: center
 
+.headerText
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    gap: 1rem
+
 .mainBlock
     position: relative
-    padding: 3.5rem 3.5rem
+    margin-top: 2rem
+    padding: 3rem 3rem
     border: 1px solid #CDCDCD
     border-radius: 1rem
-    width: 95%
+    width: 90%
     display: flex
     flex-direction: column
     align-items: center
 
 .header
     position: absolute
-    top: 10px
-    left: 15px
-    font-size: 1.2rem
+    top: 1.2rem
+    left: 3rem
+    font-size: 1.3rem
     font-weight: 600
     color: #333
 
 .divider
-    width: 131%
+    width: 124%
     height: 1px
-    background-color: #cdcdcd7a
+    background-color: #cdcdcd
     position: relative
-    top: -13px
+    top: .6rem
 
 .subMain
-    color: #333333
-    font-weight: 500
-    font-size: 1.1rem
     width: 100%
     display: flex
     flex-direction: column
-    gap: 1.3rem
-    padding-top: 1rem
+
+.nameInput
+    font-size: 1.1rem
+    font-weight: 500
+    color: #333333
+    padding-top: 2rem
 
 .items
     display: flex
     flex-direction: column
-    gap: .2rem
+    gap: .6rem
+
+.inputs
+    position: relative
 
 .Input
-    background-color: #ffffff
+    background: #ffffff !important
     border: 1px solid #CDCDCD
-    border-radius: .4rem
+    border-radius: .6rem
+    width: 85%
     color: #333
     font-family: inherit
     font-size: 1.1rem
-    padding: .5rem .6rem
+    padding: .7rem 0 .7rem 3.5rem
     outline: none
     transition: border .2s ease
+    filter: none
 
     &:focus
         border: 1px solid #2C60F0
 
+
 .loginBtn
-    margin-top: 3rem
+    margin-top: 2rem
     display: flex
     justify-content: center
     width: 100%
@@ -77,12 +93,42 @@
     font-size: 1.1rem
     font-weight: 600
     font-family: inherit
-    border-radius: .4rem
-    padding: .6rem
+    border-radius: .6rem
+    padding: .75rem
     cursor: pointer
 
 .documentAuto
     color: #3B3B3B
+    font-size: 2rem
+    font-weight: 900
 
 .fill
     color: #2C60F0
+    font-size: 2rem
+    font-weight: 900
+
+.subHeader
+    color: #6b7280
+    font-size: 1rem
+    font-weight: 600
+
+.inputIcon
+    position: absolute
+    top: .6rem
+    left: 1rem
+
+.eyeBtn
+    position: absolute
+    top: .6rem
+    right: 1rem
+    background-color: #ffffff00
+    cursor: pointer
+    outline: none
+    border: none
+
+.error
+    color: red
+    padding: 10px
+    margin-bottom: 15px
+    background: #ffe6e6
+    border-radius: 4px
