@@ -1,6 +1,7 @@
 import classes from "./DocView.module.sass"
 
 import Doc from "../../assets/user.webp"
+import Dropdown from "../Dropdownmenu/Dropdown"
 
 export default function DocView(){
     return(
@@ -10,6 +11,7 @@ export default function DocView(){
                     <span class={classes.title}>Предпросмотр</span>
                 </div>
                 <div class={classes.docImg}>
+                    <Dropdown/>
                     <img src={Doc} alt="Документ" class={classes.img}/>
                 </div>
             </div>

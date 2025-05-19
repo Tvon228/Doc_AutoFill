@@ -1,8 +1,7 @@
 import classes from "./WorkArea.module.sass"
 
 import WorkAreaButton from "../ui/buttons/WorkArea"
-import Dropdown from "./ui/Dropdownmenu/Dropdown"
-import SpecialistsBlock from "./ui/SpecialistsBlock/Specialists"
+import SpecialistsBlock from "./SpecialistsBlock/Specialists"
 
 export default function WorkArea() {
 
@@ -13,8 +12,7 @@ export default function WorkArea() {
 					<h2 class={classes.title}>Рабочая область</h2>
 				</div>
 				<div class={classes.main}>
-					<Dropdown/>
-					<SpecialistsBlock/>
+					<SpecialistsBlock />
 				</div>
 				<div class={classes.footer}>
 					<WorkAreaButton />

@@ -116,6 +116,9 @@ export default function AuthPage() {
 						</button>
 					</div>
 				</div>
+				<footer class={classes.footer}>
+					© {new Date().getFullYear()} Document AutoFill. Все права защищены.
+				</footer>
 			</form>
 		</div>
 	)

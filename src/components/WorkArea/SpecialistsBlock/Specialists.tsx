@@ -1,4 +1,5 @@
-import AddButton from "../../../ui/buttons/WorkArea/Add/addButton"
+
+import AddButton from "../../ui/buttons/WorkArea/Add/addButton"
 import classes from "./Specialists.module.sass"
 
 import { VsCalendar } from 'solid-icons/vs'
