@@ -31,7 +31,20 @@
 
 .main
     display: flex
+    max-height: 40.2rem
+    overflow-y: auto
+    scrollbar-width: thin
     flex-direction: column
     align-items: center
     padding: 1rem 
+    scrollbar-color: #CDCDCD transparent
+
+    // Для Webkit-браузеров (Chrome, Safari)
+    &::-webkit-scrollbar
+        width: 6px
+    &::-webkit-scrollbar-track
+        background: transparent
+    &::-webkit-scrollbar-thumb
+        background: #CDCDCD
+        border-radius: 3px
 

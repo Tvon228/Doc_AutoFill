@@ -13,6 +13,11 @@ export default function WorkArea() {
 				</div>
 				<div class={classes.main}>
 					<SpecialistsBlock />
+					<SpecialistsBlock />
+					<SpecialistsBlock />
+					<SpecialistsBlock />
+					<SpecialistsBlock />
+					<SpecialistsBlock />
 				</div>
 				<div class={classes.footer}>
 					<WorkAreaButton />
